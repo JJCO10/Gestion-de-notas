@@ -1,2 +1,6 @@
 # Gestion-de-notas
-Apllicacion de gestion de notas con C# .NET framework
+Juan José Carmona Ortiz
+
+25/05/2024
+
+- creacion de capas Entity, DAL, BLL y GUI.
