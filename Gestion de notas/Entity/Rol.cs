@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Entity
 {
-    public class Class1
+    public class Rol
     {
+        public string IDRol { get; set; }
+        public string nombreRol { get; set; }
+
     }
 }
