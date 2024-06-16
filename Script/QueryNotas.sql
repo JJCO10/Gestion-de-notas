@@ -30,7 +30,8 @@ CREATE TABLE Especialidades (
 -- Crear Grados
 CREATE TABLE Grados (
     IDGrado NVARCHAR(10) PRIMARY KEY,
-    Grado NVARCHAR(15) NOT NULL
+    Grado NVARCHAR(15) NOT NULL,
+	Año DATE
 );
 
 -- Crear Docentes
@@ -47,15 +48,6 @@ CREATE TABLE Docentes (
     FOREIGN KEY (IDUsuario) REFERENCES Usuarios(IDUsuario)
 );
 
--- Crear Cursos
-CREATE TABLE Cursos (
-    IDCurso NVARCHAR(10) PRIMARY KEY,
-    Curso NVARCHAR(10) NOT NULL,
-    Año DATE,
-    IDGrado NVARCHAR(10),
-    FOREIGN KEY (IDGrado) REFERENCES Grados(IDGrado)
-);
-
 -- Crear Estudiantes
 CREATE TABLE Estudiantes (
     IDEstudiante NVARCHAR(12) PRIMARY KEY,
@@ -64,9 +56,9 @@ CREATE TABLE Estudiantes (
     Direccion NVARCHAR(30),
     Telefono NVARCHAR(10),
     Correo NVARCHAR(30),
-    IDCurso NVARCHAR(10),
+    IDGrado NVARCHAR(10),
     IDUsuario NVARCHAR(10),
-    FOREIGN KEY (IDCurso) REFERENCES Cursos(IDCurso),
+    FOREIGN KEY (IDGrado) REFERENCES Grados(IDGrado),
     FOREIGN KEY (IDUsuario) REFERENCES Usuarios(IDUsuario)
 );
 
