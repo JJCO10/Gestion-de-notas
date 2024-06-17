@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Gestion_de_notas
 {
-    public partial class frmMenu : Form
+    public partial class frmGestionNotas : Form
     {
-        public frmMenu()
+        public frmGestionNotas()
         {
             InitializeComponent();
         }

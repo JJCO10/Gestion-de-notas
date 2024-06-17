@@ -36,5 +36,12 @@ namespace Gestion_de_notas
         {
 
         }
+
+        private void btnInciarSesion_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            frmMenu frmMenu = new frmMenu();
+            frmMenu.Show();
+        }
     }
 }

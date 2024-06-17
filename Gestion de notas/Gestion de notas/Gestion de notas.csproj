@@ -46,6 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmGestionDocentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionDocentes.Designer.cs">
+      <DependentUpon>frmGestionDocentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionEstudiantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionEstudiantes.Designer.cs">
+      <DependentUpon>frmGestionEstudiantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionGrados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionGrados.Designer.cs">
+      <DependentUpon>frmGestionGrados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionMaterias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionMaterias.Designer.cs">
+      <DependentUpon>frmGestionMaterias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionNotas.Designer.cs">
+      <DependentUpon>frmGestionNotas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +90,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmGestionDocentes.resx">
+      <DependentUpon>frmGestionDocentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionEstudiantes.resx">
+      <DependentUpon>frmGestionEstudiantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionGrados.resx">
+      <DependentUpon>frmGestionGrados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionMaterias.resx">
+      <DependentUpon>frmGestionMaterias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionNotas.resx">
+      <DependentUpon>frmGestionNotas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,7 +135,22 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\iniciar-sesion.png" />
+    <EmbeddedResource Include="Resources\iniciar-sesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\gestionEstudiante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\gestionDocente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Grados.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\materias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\notas.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
