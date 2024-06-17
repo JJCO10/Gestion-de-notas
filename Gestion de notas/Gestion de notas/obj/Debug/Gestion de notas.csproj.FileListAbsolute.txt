@@ -9,3 +9,8 @@ C:\Users\JJCO10\Documents\Devops\Gestion de notas\Gestion de notas\Gestion de no
 C:\Users\JJCO10\Documents\Devops\Gestion de notas\Gestion de notas\Gestion de notas\obj\Debug\Gestion de notas.exe
 C:\Users\JJCO10\Documents\Devops\Gestion de notas\Gestion de notas\Gestion de notas\obj\Debug\Gestion de notas.pdb
 C:\Users\JJCO10\Documents\Devops\Gestion de notas\Gestion de notas\Gestion de notas\obj\Debug\Gestion_de_notas.frmMenu.resources
+C:\Users\JJCO10\Documents\Devops\Gestion de notas\Gestion de notas\Gestion de notas\obj\Debug\Gestion_de_notas.frmGestionDocentes.resources
+C:\Users\JJCO10\Documents\Devops\Gestion de notas\Gestion de notas\Gestion de notas\obj\Debug\Gestion_de_notas.frmGestionEstudiantes.resources
+C:\Users\JJCO10\Documents\Devops\Gestion de notas\Gestion de notas\Gestion de notas\obj\Debug\Gestion_de_notas.frmGestionGrados.resources
+C:\Users\JJCO10\Documents\Devops\Gestion de notas\Gestion de notas\Gestion de notas\obj\Debug\Gestion_de_notas.frmGestionMaterias.resources
+C:\Users\JJCO10\Documents\Devops\Gestion de notas\Gestion de notas\Gestion de notas\obj\Debug\Gestion_de_notas.frmGestionNotas.resources

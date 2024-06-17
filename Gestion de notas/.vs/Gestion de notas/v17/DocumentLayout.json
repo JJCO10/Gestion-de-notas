@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\JJCO10\\Documents\\Devops\\Gestion de notas\\Gestion de notas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E644EB4-D800-41AC-8148-D54A7D4C634F}|Gestion de notas\\Gestion de notas.csproj|C:\\Users\\JJCO10\\Documents\\Devops\\Gestion de notas\\Gestion de notas\\gestion de notas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{9E644EB4-D800-41AC-8148-D54A7D4C634F}|Gestion de notas\\Gestion de notas.csproj|c:\\users\\jjco10\\documents\\devops\\gestion de notas\\gestion de notas\\gestion de notas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E644EB4-D800-41AC-8148-D54A7D4C634F}|Gestion de notas\\Gestion de notas.csproj|solutionrelative:gestion de notas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E644EB4-D800-41AC-8148-D54A7D4C634F}|Gestion de notas\\Gestion de notas.csproj|c:\\users\\jjco10\\documents\\devops\\gestion de notas\\gestion de notas\\gestion de notas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{9E644EB4-D800-41AC-8148-D54A7D4C634F}|Gestion de notas\\Gestion de notas.csproj|solutionrelative:gestion de notas\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E644EB4-D800-41AC-8148-D54A7D4C634F}|Gestion de notas\\Gestion de notas.csproj|c:\\users\\jjco10\\documents\\devops\\gestion de notas\\gestion de notas\\gestion de notas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E644EB4-D800-41AC-8148-D54A7D4C634F}|Gestion de notas\\Gestion de notas.csproj|solutionrelative:gestion de notas\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,8 +45,25 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\JJCO10\\Documents\\Devops\\Gestion de notas\\Gestion de notas\\Gestion de notas\\Menu.cs",
+              "RelativeDocumentMoniker": "Gestion de notas\\Menu.cs",
+              "ToolTip": "C:\\Users\\JJCO10\\Documents\\Devops\\Gestion de notas\\Gestion de notas\\Gestion de notas\\Menu.cs",
+              "RelativeToolTip": "Gestion de notas\\Menu.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAFAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T16:18:35.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Menu.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\JJCO10\\Documents\\Devops\\Gestion de notas\\Gestion de notas\\Gestion de notas\\Menu.cs",
               "RelativeDocumentMoniker": "Gestion de notas\\Menu.cs",
@@ -47,6 +72,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-16T02:06:45.465Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\JJCO10\\Documents\\Devops\\Gestion de notas\\Gestion de notas\\Gestion de notas\\Login.cs",
+              "RelativeDocumentMoniker": "Gestion de notas\\Login.cs",
+              "ToolTip": "C:\\Users\\JJCO10\\Documents\\Devops\\Gestion de notas\\Gestion de notas\\Gestion de notas\\Login.cs",
+              "RelativeToolTip": "Gestion de notas\\Login.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwCsAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T16:19:17.832Z",
+              "EditorCaption": ""
             }
           ]
         }

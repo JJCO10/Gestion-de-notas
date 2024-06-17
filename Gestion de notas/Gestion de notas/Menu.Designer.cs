@@ -51,7 +51,7 @@
             this.notasToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(816, 48);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -59,43 +59,49 @@
             // 
             this.gestionEstudiantesToolStripMenuItem.Image = global::Gestion_de_notas.Properties.Resources.gestionEstudiante;
             this.gestionEstudiantesToolStripMenuItem.Name = "gestionEstudiantesToolStripMenuItem";
-            this.gestionEstudiantesToolStripMenuItem.Size = new System.Drawing.Size(158, 21);
+            this.gestionEstudiantesToolStripMenuItem.Size = new System.Drawing.Size(182, 44);
             this.gestionEstudiantesToolStripMenuItem.Text = "Gestion Estudiantes";
+            this.gestionEstudiantesToolStripMenuItem.Click += new System.EventHandler(this.gestionEstudiantesToolStripMenuItem_Click);
             // 
             // gestionDocentesToolStripMenuItem
             // 
             this.gestionDocentesToolStripMenuItem.Image = global::Gestion_de_notas.Properties.Resources.gestionDocente;
             this.gestionDocentesToolStripMenuItem.Name = "gestionDocentesToolStripMenuItem";
-            this.gestionDocentesToolStripMenuItem.Size = new System.Drawing.Size(145, 21);
+            this.gestionDocentesToolStripMenuItem.Size = new System.Drawing.Size(169, 44);
             this.gestionDocentesToolStripMenuItem.Text = "Gestion Docentes";
+            this.gestionDocentesToolStripMenuItem.Click += new System.EventHandler(this.gestionDocentesToolStripMenuItem_Click);
             // 
             // gradosToolStripMenuItem
             // 
             this.gradosToolStripMenuItem.Image = global::Gestion_de_notas.Properties.Resources.Grados;
             this.gradosToolStripMenuItem.Name = "gradosToolStripMenuItem";
-            this.gradosToolStripMenuItem.Size = new System.Drawing.Size(80, 21);
+            this.gradosToolStripMenuItem.Size = new System.Drawing.Size(104, 44);
             this.gradosToolStripMenuItem.Text = "Grados";
+            this.gradosToolStripMenuItem.Click += new System.EventHandler(this.gradosToolStripMenuItem_Click);
             // 
             // materiasToolStripMenuItem
             // 
             this.materiasToolStripMenuItem.Image = global::Gestion_de_notas.Properties.Resources.materias;
             this.materiasToolStripMenuItem.Name = "materiasToolStripMenuItem";
-            this.materiasToolStripMenuItem.Size = new System.Drawing.Size(90, 21);
+            this.materiasToolStripMenuItem.Size = new System.Drawing.Size(114, 44);
             this.materiasToolStripMenuItem.Text = "Materias";
+            this.materiasToolStripMenuItem.Click += new System.EventHandler(this.materiasToolStripMenuItem_Click);
             // 
             // notasToolStripMenuItem
             // 
             this.notasToolStripMenuItem.Image = global::Gestion_de_notas.Properties.Resources.notas;
             this.notasToolStripMenuItem.Name = "notasToolStripMenuItem";
-            this.notasToolStripMenuItem.Size = new System.Drawing.Size(73, 21);
+            this.notasToolStripMenuItem.Size = new System.Drawing.Size(97, 44);
             this.notasToolStripMenuItem.Text = "Notas";
+            this.notasToolStripMenuItem.Click += new System.EventHandler(this.notasToolStripMenuItem_Click);
             // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(816, 471);
             this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMenu";
             this.Text = "Menu";
