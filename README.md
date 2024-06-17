@@ -13,4 +13,5 @@ Juan José Carmona Ortiz
 
 - creacion de procedmientos para el crud de docentes y estudiantes
 - creacion de interfaz de logueo y interfaz de menu principal con sus respectivos forms
+- creacion de la rama para trabajar el modulo de gestionar estudiantes
   
