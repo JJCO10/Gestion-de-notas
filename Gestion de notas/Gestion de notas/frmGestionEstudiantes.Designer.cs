@@ -46,6 +46,10 @@
             this.btnInsertarEstudiante = new System.Windows.Forms.Button();
             this.btnModificarEstudiante = new System.Windows.Forms.Button();
             this.btnEliminarEstudiante = new System.Windows.Forms.Button();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEstudiantes)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,7 +58,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label1.Location = new System.Drawing.Point(12, 31);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(82, 19);
             this.label1.TabIndex = 0;
@@ -65,7 +69,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label2.Location = new System.Drawing.Point(14, 83);
+            this.label2.Location = new System.Drawing.Point(14, 60);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 19);
             this.label2.TabIndex = 1;
@@ -76,7 +80,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label3.Location = new System.Drawing.Point(12, 146);
+            this.label3.Location = new System.Drawing.Point(12, 109);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(136, 19);
             this.label3.TabIndex = 2;
@@ -87,7 +91,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label4.Location = new System.Drawing.Point(12, 203);
+            this.label4.Location = new System.Drawing.Point(12, 158);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(74, 19);
             this.label4.TabIndex = 3;
@@ -98,7 +102,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label5.Location = new System.Drawing.Point(12, 261);
+            this.label5.Location = new System.Drawing.Point(12, 255);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 19);
             this.label5.TabIndex = 4;
@@ -106,28 +110,28 @@
             // 
             // txtDocumento
             // 
-            this.txtDocumento.Location = new System.Drawing.Point(16, 53);
+            this.txtDocumento.Location = new System.Drawing.Point(16, 31);
             this.txtDocumento.Name = "txtDocumento";
             this.txtDocumento.Size = new System.Drawing.Size(155, 20);
             this.txtDocumento.TabIndex = 5;
             // 
             // txtNombreEstudiante
             // 
-            this.txtNombreEstudiante.Location = new System.Drawing.Point(16, 105);
+            this.txtNombreEstudiante.Location = new System.Drawing.Point(16, 82);
             this.txtNombreEstudiante.Name = "txtNombreEstudiante";
             this.txtNombreEstudiante.Size = new System.Drawing.Size(155, 20);
             this.txtNombreEstudiante.TabIndex = 6;
             // 
             // txtDireccion
             // 
-            this.txtDireccion.Location = new System.Drawing.Point(16, 225);
+            this.txtDireccion.Location = new System.Drawing.Point(16, 180);
             this.txtDireccion.Name = "txtDireccion";
             this.txtDireccion.Size = new System.Drawing.Size(155, 20);
             this.txtDireccion.TabIndex = 8;
             // 
             // txtCorreo
             // 
-            this.txtCorreo.Location = new System.Drawing.Point(16, 283);
+            this.txtCorreo.Location = new System.Drawing.Point(16, 277);
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(155, 20);
             this.txtCorreo.TabIndex = 9;
@@ -135,7 +139,7 @@
             // dtpFechaNacimientoEstudiante
             // 
             this.dtpFechaNacimientoEstudiante.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpFechaNacimientoEstudiante.Location = new System.Drawing.Point(16, 168);
+            this.dtpFechaNacimientoEstudiante.Location = new System.Drawing.Point(16, 131);
             this.dtpFechaNacimientoEstudiante.Name = "dtpFechaNacimientoEstudiante";
             this.dtpFechaNacimientoEstudiante.Size = new System.Drawing.Size(155, 20);
             this.dtpFechaNacimientoEstudiante.TabIndex = 10;
@@ -143,9 +147,9 @@
             // dgvEstudiantes
             // 
             this.dgvEstudiantes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEstudiantes.Location = new System.Drawing.Point(177, 37);
+            this.dgvEstudiantes.Location = new System.Drawing.Point(177, 12);
             this.dgvEstudiantes.Name = "dgvEstudiantes";
-            this.dgvEstudiantes.Size = new System.Drawing.Size(471, 350);
+            this.dgvEstudiantes.Size = new System.Drawing.Size(471, 394);
             this.dgvEstudiantes.TabIndex = 11;
             // 
             // label6
@@ -153,7 +157,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.label6.Location = new System.Drawing.Point(12, 318);
+            this.label6.Location = new System.Drawing.Point(12, 307);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(47, 19);
             this.label6.TabIndex = 12;
@@ -161,7 +165,7 @@
             // 
             // txtGrado
             // 
-            this.txtGrado.Location = new System.Drawing.Point(16, 340);
+            this.txtGrado.Location = new System.Drawing.Point(16, 329);
             this.txtGrado.Name = "txtGrado";
             this.txtGrado.Size = new System.Drawing.Size(155, 20);
             this.txtGrado.TabIndex = 13;
@@ -212,6 +216,7 @@
             this.btnModificarEstudiante.TabIndex = 17;
             this.btnModificarEstudiante.Text = "Modificar";
             this.btnModificarEstudiante.UseVisualStyleBackColor = false;
+            this.btnModificarEstudiante.Click += new System.EventHandler(this.btnModificarEstudiante_Click);
             // 
             // btnEliminarEstudiante
             // 
@@ -226,6 +231,43 @@
             this.btnEliminarEstudiante.TabIndex = 18;
             this.btnEliminarEstudiante.Text = "Eliminar";
             this.btnEliminarEstudiante.UseVisualStyleBackColor = false;
+            this.btnEliminarEstudiante.Click += new System.EventHandler(this.btnEliminarEstudiante_Click);
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.Location = new System.Drawing.Point(18, 228);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(155, 20);
+            this.txtTelefono.TabIndex = 20;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label8.Location = new System.Drawing.Point(14, 206);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(62, 19);
+            this.label8.TabIndex = 19;
+            this.label8.Text = "Telefono";
+            // 
+            // txtUsuario
+            // 
+            this.txtUsuario.Location = new System.Drawing.Point(12, 386);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(155, 20);
+            this.txtUsuario.TabIndex = 22;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.DarkSlateGray;
+            this.label9.Location = new System.Drawing.Point(8, 364);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(56, 19);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "Usuario";
             // 
             // frmGestionEstudiantes
             // 
@@ -233,6 +275,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumAquamarine;
             this.ClientSize = new System.Drawing.Size(810, 418);
+            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.txtTelefono);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.btnEliminarEstudiante);
             this.Controls.Add(this.btnModificarEstudiante);
             this.Controls.Add(this.btnInsertarEstudiante);
@@ -280,5 +326,9 @@
         private System.Windows.Forms.Button btnInsertarEstudiante;
         private System.Windows.Forms.Button btnModificarEstudiante;
         private System.Windows.Forms.Button btnEliminarEstudiante;
+        private System.Windows.Forms.TextBox txtTelefono;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.Label label9;
     }
 }
