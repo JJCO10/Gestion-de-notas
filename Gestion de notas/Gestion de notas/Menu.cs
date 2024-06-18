@@ -27,7 +27,13 @@ namespace Gestion_de_notas
             {
                 frmGestionEstudiantes frmGestionEstudiantes = new frmGestionEstudiantes();
                 frmGestionEstudiantes.MdiParent = this;
+                frmGestionEstudiantes.StartPosition = FormStartPosition.Manual;
+                frmGestionEstudiantes.Location = new Point(0, 0);
                 frmGestionEstudiantes.Show();
+            }
+            else
+            {
+                frmOpen.BringToFront();
             }
 
         }
@@ -41,7 +47,13 @@ namespace Gestion_de_notas
             {
                 frmGestionDocentes frmGestionDocentes = new frmGestionDocentes();
                 frmGestionDocentes.MdiParent = this;
+                frmGestionDocentes.StartPosition = FormStartPosition.Manual;
+                frmGestionDocentes.Location = new Point(0, 0);
                 frmGestionDocentes.Show();
+            }
+            else
+            {
+                frmOpen.BringToFront();
             }
 
         }
@@ -55,7 +67,13 @@ namespace Gestion_de_notas
             {
                 frmGestionGrados frmGestionGrados = new frmGestionGrados();
                 frmGestionGrados.MdiParent = this;
+                frmGestionGrados.StartPosition = FormStartPosition.Manual;
+                frmGestionGrados.Location = new Point(0, 0);
                 frmGestionGrados.Show();
+            }
+            else
+            {
+                frmOpen.BringToFront();
             }
 
         }
@@ -69,7 +87,13 @@ namespace Gestion_de_notas
             {
                 frmGestionMaterias frmGestionMaterias = new frmGestionMaterias();
                 frmGestionMaterias.MdiParent = this;
+                frmGestionMaterias.StartPosition = FormStartPosition.Manual;
+                frmGestionMaterias.Location = new Point(0, 0);
                 frmGestionMaterias.Show();
+            }
+            else
+            {
+                frmOpen.BringToFront();
             }
 
         }
@@ -83,7 +107,13 @@ namespace Gestion_de_notas
             {
                 frmGestionNotas frmGestionNotas = new frmGestionNotas();
                 frmGestionNotas.MdiParent = this;
+                frmGestionNotas.StartPosition = FormStartPosition.Manual;
+                frmGestionNotas.Location = new Point(0, 0);
                 frmGestionNotas.Show();
+            }
+            else
+            {
+                frmOpen.BringToFront();
             }
 
         }
