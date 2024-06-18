@@ -152,5 +152,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Resources\notas.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{73f41cbc-2ab5-4ae9-98e2-22fff738bedb}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{fd82e323-a344-4980-b1cd-b24c334ad3f1}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

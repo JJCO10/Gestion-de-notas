@@ -16,5 +16,10 @@ namespace Gestion_de_notas
         {
             InitializeComponent();
         }
+
+        private void btnInsertarEstudiante_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

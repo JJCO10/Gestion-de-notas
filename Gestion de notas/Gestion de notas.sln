@@ -4,12 +4,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestion de notas", "Gestion de notas\Gestion de notas.csproj", "{9E644EB4-D800-41AC-8148-D54A7D4C634F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{73F41CBC-2AB5-4AE9-98E2-22FFF738BEDB} = {73F41CBC-2AB5-4AE9-98E2-22FFF738BEDB}
+		{FD82E323-A344-4980-B1CD-B24C334AD3F1} = {FD82E323-A344-4980-B1CD-B24C334AD3F1}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{FD82E323-A344-4980-B1CD-B24C334AD3F1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{5F5238E7-B091-4C41-B397-FCF1FC66224D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FD82E323-A344-4980-B1CD-B24C334AD3F1} = {FD82E323-A344-4980-B1CD-B24C334AD3F1}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{73F41CBC-2AB5-4AE9-98E2-22FFF738BEDB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F5238E7-B091-4C41-B397-FCF1FC66224D} = {5F5238E7-B091-4C41-B397-FCF1FC66224D}
+		{FD82E323-A344-4980-B1CD-B24C334AD3F1} = {FD82E323-A344-4980-B1CD-B24C334AD3F1}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

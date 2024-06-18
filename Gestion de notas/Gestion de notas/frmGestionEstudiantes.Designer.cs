@@ -197,6 +197,7 @@
             this.btnInsertarEstudiante.TabIndex = 16;
             this.btnInsertarEstudiante.Text = "Insertar";
             this.btnInsertarEstudiante.UseVisualStyleBackColor = false;
+            this.btnInsertarEstudiante.Click += new System.EventHandler(this.btnInsertarEstudiante_Click);
             // 
             // btnModificarEstudiante
             // 
